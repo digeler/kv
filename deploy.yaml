@@ -12,11 +12,11 @@ spec:
     args: ["-c","./app --debug --interval 30"]
     env:
           - name: AZURE_TENANT_ID
-            value: 72f988bf-86f1-41af-91ab-2d7cd011db47
+            value: *****
           - name: AZURE_CLIENT_ID
-            value: be7453de-e0be-4fd2-a9b0-052a33481083
+            value: be7453de
           - name: AZURE_CLIENT_SECRET
-            value: 62a82f6c-c132-4aa4-bef6-525d000aac2e 
+            value: 62a82f6c
           - name: KVAULT
             value: kube
           - name: SECNAME
